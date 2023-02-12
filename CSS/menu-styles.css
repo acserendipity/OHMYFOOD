@@ -91,31 +91,34 @@ p{
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin-bottom: 1em;
-    overflow: hidden;
     position: relative;
-    transition: width 400ms ease-in;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: width 200ms ease-in 1000ms;
 }
 .fa-circle-check{
    color: white;
    font-size: 2.5em; 
    cursor: pointer;
+   
 }
 .menu-item-check{
     display: flex;
     justify-content: flex-end;
+    border-radius: 15px;
     float: right;
     align-items: center;
     background-color: #99E2D0;
-    width: 50px;
+    width: 92%;
     height: 63px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding: 20px;
-    right: -85px;
-    opacity: 0;
+    text-overflow: ellipsis;
     position: absolute;
     margin-bottom: 12em;
-    animation: slide-in 3s ease-in;
+    
 }
 
     

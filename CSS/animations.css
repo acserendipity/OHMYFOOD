@@ -11,6 +11,11 @@ button:hover{
 	animation: fadeIn 1s ease-in both;
     cursor: pointer;
 }
+.menu-item-check {
+    opacity: 0;
+	animation: fadeIn 1s ease-in both;
+    cursor: pointer;
+}
 @keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -36,22 +41,9 @@ button:hover{
     }
 }
 .menu-card:hover{
-    width: 87%;
-    transition-duration: 400ms;  
-    cursor: pointer; 
+    width: 84%;
+    transition-duration: 400ms paused;  
+    cursor: pointer;
+    text-overflow: hidden;
 }
-.menu-item-check:hover{
-    opacity: 1;
-    animation: 3s ease-in 1s infinite reverse both running slidein;
-}
-.menu-item-check:hover {
-    animation: slide-in 3s ease-in;
-  }
-  @keyframes slide-in {
-    from {
-      right: -85px;
-    }
-    to {
-      right: 50px;
-    }
-  }
+

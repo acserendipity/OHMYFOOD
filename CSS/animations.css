@@ -1,0 +1,57 @@
+button{
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+button:hover{
+    transform: scale(1.07);
+}
+.menu-card {
+    opacity: 0;
+	animation: fadeIn 1s ease-in both;
+    cursor: pointer;
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+.fa-circle-check{
+    animation: spin 1s ease-in-out 1 paused;
+}
+.fa-circle-check:hover{
+    animation-play-state: running;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.menu-card:hover{
+    width: 87%;
+    transition-duration: 400ms;  
+    cursor: pointer; 
+}
+.menu-item-check:hover{
+    opacity: 1;
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+.menu-item-check:hover {
+    animation: slide-in 3s ease-in;
+  }
+  @keyframes slide-in {
+    from {
+      right: -85px;
+    }
+    to {
+      right: 50px;
+    }
+  }

@@ -1,0 +1,255 @@
+.logo-header {
+            text-align: center;
+        }
+body{
+    height: 100vh;
+    
+}
+        
+        .Paris {
+            background-color: rgb(207, 207, 207);
+            padding: 1% 1% 1% 1%;
+            font-family: 'Roboto';
+            color: rgb(102, 102, 102);
+            box-shadow: 0px -2px 1px rgba(112, 112, 112, 0.75);
+            text-align: center;
+        }
+        .fa-location-dot {
+            color: rgb(39, 39, 39);
+            margin-right: 1em;
+        }
+        .explore-panel {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            background-color: rgb(235, 234, 234);
+            padding: 3% 3% 8% 3%;
+        }
+        .book-menu {
+            font-family: 'Roboto';
+            text-align: center;
+            font-size: 15px;
+            font-weight: 800;
+        }
+        .dicover-top-rest {
+            font-family: 'Roboto';
+            text-align: center;
+            font-size: 25px;
+            font-weight: 10;
+        }
+        .purple-button {
+            text-align: center;
+            
+        }
+        .explore-button {
+            background-image: linear-gradient(#FF79DA, #9356DC);
+            font-family: 'Roboto';
+            font-size: large;
+            color: white;
+            padding: 3% 3% 3% 3%;
+            border-radius: 15em;
+            width: 300px;
+        }
+    
+        .how-works {
+            font-family: 'Roboto';
+            font-weight: 800;
+            text-align: start;
+        }
+        .numb-tag{
+            color: white;
+            border: 10px;
+            background-color: #9356DC;
+            border-radius: 50%;
+            width: 5em;
+            height: 3em;
+            padding: 8px;
+            margin-right: 2em;
+        }
+        .fa-mobile-screen-button {
+            font-size: larger;
+            margin-right: 1em;
+            margin-left: 1em;
+            text-align: start;
+            color: #9356DC;
+        }
+        .fa-list-ul {
+            font-size: larger;
+            margin-right: 1em;
+            margin-left: 1em;
+            text-align: start;
+            color: #9356DC;
+        }
+        .fa-store {
+            font-size: larger;
+            margin-right: 1em;
+            margin-left: 1em;
+            text-align: start;
+            color: #9356DC;
+        }
+        .choose-btn {
+            margin-bottom: 1em;
+            border-radius: 15px;
+            color: rgb(43, 43, 43);
+            text-align: start;
+            background-color: rgb(235, 234, 234);
+            padding: 3% 26% 3% 3%;
+            font-size: medium;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 4em; 
+        }
+        .create-btn {
+            margin-bottom: 1em;
+            border-radius: 15px;
+            color: rgb(43, 43, 43);
+            text-align: start;
+            background-color: rgb(235, 234, 234);
+            padding: 3% 29% 3% 3%;
+            font-size: medium;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 4em;   
+        }
+        .enjoy-btn {
+            margin-bottom: 1em;
+            border-radius: 15px;
+            color: rgb(43, 43, 43);
+            text-align: start;
+            background-color: rgb(235, 234, 234);
+            padding: 3% 10% 3% 3%;
+            font-size: medium;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 4em;
+        }
+        .choose :hover {
+            background-color: #dfc9fc;
+        }
+        .create :hover {
+            background-color: #dfc9fc;
+        }
+        .enjoy :hover {
+            background-color: #dfc9fc;
+        }
+        .feature-restaurants {
+            display: flex;
+            flex-flow: column wrap;
+            
+        }
+
+        button:hover{
+            cursor: pointer;
+        }
+        button{
+            border: none;
+        }
+        
+        .new-tag {
+            color: #33ffcc;
+            font-weight: 700;
+            background-color: #c7f8ec;
+            position: absolute;
+            margin-left: 22em;
+            border: 1px solid #c7f8ec;
+            width: 3em;
+            border-radius: 5px;
+            text-align: center;
+            width: 15%;
+            height: 22px;
+            padding-top: 1%;
+        }
+       
+      
+        .rest-title {
+            font-family: 'Roboto';
+            font-weight: 800;
+        }
+        .rest-pic {
+            border-radius: 5px 5px 0 0;
+            width: 100%;
+            
+        }
+        .Full-Palette {
+            font-family: 'Roboto';
+            font-size: medium;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            position: relative;
+           
+            
+        }
+        .Enchanted-Plate {
+            font-family: 'Roboto';
+            font-size: medium;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            position: relative;
+           
+        }
+        .Bastille {
+            font-family: 'Roboto';
+            font-size: medium;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            margin-bottom: 1em;
+            
+        } 
+        .Gourmand {
+            font-family: 'Roboto';
+            font-size: medium;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            margin-bottom: 4.5em;
+        }  
+        .restaurant-name {
+            padding-left: 3%;
+            padding-bottom: 3%;
+        }
+        .fa-heart {
+            float: right;
+            padding-right: 10%;
+            font-size: 30px;
+            color: rgb(182, 181, 181);
+            border-color: black;
+        }
+        .fa-heart:hover{
+           color: #FF79DA;
+            cursor: pointer;
+        }
+        .footer-section {
+            background-color:rgb(235, 234, 234);
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            padding-left: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            text-decoration: none;
+        }
+        .footer-logo {
+            width: 200px;
+        }
+        .footer-item {
+            font-family: 'Roboto';
+            color: rgb(0, 0, 0);
+            font-size: large;
+        }
+        .fa-utensils {
+            margin-right: 1.5em;
+        }
+        .fa-handshake-angle {
+            margin-right: 1em;
+        }
+        #email-link{
+            text-decoration: none;
+            color: black;
+        }
+        

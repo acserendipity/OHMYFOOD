@@ -1,0 +1,164 @@
+.logo-menus{
+    text-align: center;
+    padding-left: 5em;   
+}
+.fa-arrow-left {
+    padding-left: 1em;
+    font-size: 25px;
+}
+.logo-arrow{
+    display: flex;
+    flex-direction: row;
+}
+.header-pic-menus{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.overall-container{
+    position: relative;
+}
+.restaurant-name{
+    position: absolute;
+    font-family: 'Shrikhand';
+    font-size: 11px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+}
+.fa-heart{
+    font-size: 15px;
+    float: right;
+    padding-left: 12em;
+    padding-top: 1em;
+    
+}
+.entrees-title{
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin-top: 1em;
+}
+hr{
+    width: 10%;
+    background-color: #99E2D0;
+    height: 2px;
+    border: none;
+    margin-top: -1em;
+    display: flex;
+    margin-left: 0px;
+}
+.all-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 238, 238);
+    border: 1rem solid rgb(238, 238, 238);
+    border-radius: 2em 2em 0 0;
+    position: relative;
+    margin-top: -5em;
+}
+img{
+    object-fit: cover;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+h4{
+    font-family: 'Roboto';
+    margin-left: 1em;
+}
+p{
+    font-family: 'Roboto';
+    font-weight: 100;
+    margin-left: 1em;
+}
+.price{
+    font-weight: 700;
+    float: right;
+    margin-right: 1em;
+}
+
+.menu-card{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 1em;
+    overflow: hidden;
+    position: relative;
+    transition: width 400ms ease-in;
+}
+.fa-circle-check{
+   color: white;
+   font-size: 2.5em; 
+   cursor: pointer;
+}
+.menu-item-check{
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    align-items: center;
+    background-color: #99E2D0;
+    width: 50px;
+    height: 63px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+    right: -85px;
+    opacity: 0;
+    position: absolute;
+    margin-bottom: 12em;
+    animation: slide-in 3s ease-in;
+}
+
+    
+.order-button{
+        background-image: linear-gradient(#FF79DA, #9356DC);
+        font-family: 'Roboto';
+        font-size: large;
+        color: white;
+        padding: 3% 3% 3% 3%;
+        border-radius: 15em;
+        width: 300px;
+}
+.ord-btn{
+    text-align: center;
+}
+
+.footer-section {
+    background-color: rgb(116, 116, 116);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: black;
+    text-decoration: none;
+}
+.footer-logo {
+    width: 200px;
+}
+.footer-item {
+    font-family: 'Roboto';
+    color: white;
+    font-size: large;
+}
+.fa-utensils {
+    margin-right: 1.5em;
+}
+.fa-handshake-angle {
+    margin-right: 1em;
+}
+
+#email-link{
+    text-decoration: none;
+    color: black;
+}

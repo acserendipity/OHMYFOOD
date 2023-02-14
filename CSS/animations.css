@@ -44,6 +44,6 @@ button:hover{
     width: 84%;
     transition-duration: 400ms paused;  
     cursor: pointer;
-    text-overflow: hidden;
+    
 }
 

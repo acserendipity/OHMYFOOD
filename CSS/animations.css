@@ -41,7 +41,7 @@ button:hover{
 }
 .menu-card:hover{
     width: 84%;
-    transition-duration: 400ms paused;  
+    transition-duration: 400ms;  
     cursor: pointer;
     
 }

@@ -13,7 +13,7 @@ button:hover{
 }
 .menu-item-check {
     opacity: 0;
-	animation: fadeIn 1s ease-in both;
+	animation: fadeIn 0.5s ease-in both;
     cursor: pointer;
 }
 @keyframes fadeIn {
@@ -27,11 +27,10 @@ button:hover{
 	}
 }
 .fa-circle-check{
-    animation: spin 1s ease-in-out 1 paused;
-}
-.fa-circle-check:hover{
+    animation: spin 1000ms ease-in-out 1000ms normal backwards;
     animation-play-state: running;
 }
+
 @keyframes spin {
     from {
         transform: rotate(0deg);

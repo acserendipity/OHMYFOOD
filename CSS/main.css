@@ -225,22 +225,24 @@ body{
             cursor: pointer;
         }
         .footer-section {
-            background-color:rgb(235, 234, 234);
+            background-color:rgb(53, 53, 53);
             display: flex;
             flex-direction: column;
-            gap: 1em;
+            gap: 0.5em;
             padding-left: 1em;
-            padding-top: 1em;
-            padding-bottom: 1em;
+            padding-top: 2em;
+            padding-bottom: 2em;
             text-decoration: none;
+            color: white;
         }
         .footer-logo {
-            width: 200px;
+            width: 30%;
+            filter: invert(100%);
         }
         .footer-item {
             font-family: 'Roboto';
-            color: rgb(0, 0, 0);
-            font-size: large;
+            color: rgb(255, 255, 255);
+            font-size: medium;
         }
         .fa-utensils {
             margin-right: 1.5em;
@@ -250,6 +252,6 @@ body{
         }
         #email-link{
             text-decoration: none;
-            color: black;
+            color: rgb(255, 255, 255);
         }
         

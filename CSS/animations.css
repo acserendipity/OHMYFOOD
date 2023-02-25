@@ -28,6 +28,9 @@ button:hover{
 }
 .fa-circle-check{
     animation: spin 1000ms ease-in-out 1000ms normal backwards;
+}
+
+.fa-circle-check:hover{
     animation-play-state: running;
 }
 

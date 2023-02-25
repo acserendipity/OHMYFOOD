@@ -77,9 +77,14 @@ p{
     font-family: 'Roboto';
     font-weight: 100;
     margin-left: 1em;
-    text-overflow: clip;
+    text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    /*margin-top: 0;*/
+}
+h6 {
+    font-family: 'Roboto';
+    font-size: 12px;
 }
 .price{
     font-weight: 700;
@@ -88,6 +93,7 @@ p{
 }
 
 .menu-card{
+    display: inline-block;
     background-color: white;
     border: 5px solid white;
     border-radius: 15px;
